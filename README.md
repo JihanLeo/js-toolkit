@@ -42,3 +42,26 @@ localRespository('local','remove','userName');
 
 
 
+#### 工具二：时间戳转换为自定义时间格式工具（formatDate.js）
+
+参数
+
+``` 
+/**
+ * 时间戳转换为自定义时间格式
+ * @param {*需要转换的时间戳} date 
+ * @param {*需要转换的目标时间格式：年-yyyy,月-MM，日-dd,时-hh,分-mm,秒-ss} fmt 
+ * 
+ */
+```
+
+使用示例
+
+```
+formatDate(当前时间戳，‘yyyy-MM-dd hh:mm:ss’);
+```
+
+
+
+> 可在原生JavaScript，Vue，React等框架作为过滤器或方法使用，请使用者自行按照实际需求进行调用
+
