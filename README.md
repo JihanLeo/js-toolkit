@@ -63,5 +63,31 @@ formatDate(当前时间戳，‘yyyy-MM-dd hh:mm:ss’);
 
 
 
+
+
+
+
+
+
+
+#### 工具三：16进制颜色码转rgb颜色值（transformColor.js）
+
+参数
+
+``` 
+/**
+ * @param {*需要转换的16进制颜色码，如：#000000；} color 
+ * 
+ */
+```
+
+使用示例
+
+```
+colorToRgb("#FFFFFF");  //rgb(255, 255, 255)
+```
+
+
+
 > 可在原生JavaScript，Vue，React等框架作为过滤器或方法使用，请使用者自行按照实际需求进行调用
 
